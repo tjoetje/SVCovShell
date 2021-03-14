@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leonzhang/Documents/project
+CMAKE_SOURCE_DIR = /Users/leonzhang/Documents/project/SVCovShell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leonzhang/Documents/project
+CMAKE_BINARY_DIR = /Users/leonzhang/Documents/project/SVCovShell
 
 # Include any dependencies generated for this target.
 include CMakeFiles/shelllib.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/shelllib.dir/flags.make
 
 CMakeFiles/shelllib.dir/shell.cpp.o: CMakeFiles/shelllib.dir/flags.make
 CMakeFiles/shelllib.dir/shell.cpp.o: shell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leonzhang/Documents/project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shelllib.dir/shell.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shelllib.dir/shell.cpp.o -c /Users/leonzhang/Documents/project/shell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leonzhang/Documents/project/SVCovShell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shelllib.dir/shell.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shelllib.dir/shell.cpp.o -c /Users/leonzhang/Documents/project/SVCovShell/shell.cpp
 
 CMakeFiles/shelllib.dir/shell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shelllib.dir/shell.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leonzhang/Documents/project/shell.cpp > CMakeFiles/shelllib.dir/shell.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leonzhang/Documents/project/SVCovShell/shell.cpp > CMakeFiles/shelllib.dir/shell.cpp.i
 
 CMakeFiles/shelllib.dir/shell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shelllib.dir/shell.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leonzhang/Documents/project/shell.cpp -o CMakeFiles/shelllib.dir/shell.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leonzhang/Documents/project/SVCovShell/shell.cpp -o CMakeFiles/shelllib.dir/shell.cpp.s
 
 # Object files for target shelllib
 shelllib_OBJECTS = \
@@ -99,7 +99,7 @@ shelllib_EXTERNAL_OBJECTS =
 libshelllib.a: CMakeFiles/shelllib.dir/shell.cpp.o
 libshelllib.a: CMakeFiles/shelllib.dir/build.make
 libshelllib.a: CMakeFiles/shelllib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leonzhang/Documents/project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libshelllib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leonzhang/Documents/project/SVCovShell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libshelllib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/shelllib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shelllib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -113,6 +113,6 @@ CMakeFiles/shelllib.dir/clean:
 .PHONY : CMakeFiles/shelllib.dir/clean
 
 CMakeFiles/shelllib.dir/depend:
-	cd /Users/leonzhang/Documents/project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/leonzhang/Documents/project /Users/leonzhang/Documents/project /Users/leonzhang/Documents/project /Users/leonzhang/Documents/project /Users/leonzhang/Documents/project/CMakeFiles/shelllib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/leonzhang/Documents/project/SVCovShell && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/leonzhang/Documents/project/SVCovShell /Users/leonzhang/Documents/project/SVCovShell /Users/leonzhang/Documents/project/SVCovShell /Users/leonzhang/Documents/project/SVCovShell /Users/leonzhang/Documents/project/SVCovShell/CMakeFiles/shelllib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/shelllib.dir/depend
 

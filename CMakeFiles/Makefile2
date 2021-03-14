@@ -63,10 +63,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leonzhang/Documents/project
+CMAKE_SOURCE_DIR = /Users/leonzhang/Documents/project/SVCovShell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leonzhang/Documents/project
+CMAKE_BINARY_DIR = /Users/leonzhang/Documents/project/SVCovShell
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -95,14 +95,14 @@ clean: CMakeFiles/shelllib.dir/clean
 CMakeFiles/shell.dir/all: CMakeFiles/shelllib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/leonzhang/Documents/project/CMakeFiles --progress-num=1,2 "Built target shell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/leonzhang/Documents/project/SVCovShell/CMakeFiles --progress-num=1,2 "Built target shell"
 .PHONY : CMakeFiles/shell.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shell.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/SVCovShell/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/shell.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/SVCovShell/CMakeFiles 0
 .PHONY : CMakeFiles/shell.dir/rule
 
 # Convenience name for target.
@@ -122,14 +122,14 @@ CMakeFiles/shell.dir/clean:
 CMakeFiles/shelllib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shelllib.dir/build.make CMakeFiles/shelllib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shelllib.dir/build.make CMakeFiles/shelllib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/leonzhang/Documents/project/CMakeFiles --progress-num=3,4 "Built target shelllib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/leonzhang/Documents/project/SVCovShell/CMakeFiles --progress-num=3,4 "Built target shelllib"
 .PHONY : CMakeFiles/shelllib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shelllib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/SVCovShell/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/shelllib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonzhang/Documents/project/SVCovShell/CMakeFiles 0
 .PHONY : CMakeFiles/shelllib.dir/rule
 
 # Convenience name for target.

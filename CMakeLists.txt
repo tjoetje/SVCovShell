@@ -9,8 +9,3 @@ add_library (${PROJECT_NAME}lib ${SRC_LIST})
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}lib)
-
-IF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
-    target_link_libraries(${PROJECT_NAME}test pthread)
-ENDIF()
-
